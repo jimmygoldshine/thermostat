@@ -5,7 +5,6 @@ A Digital Thermostat
 Set Up:
 -----
 * Fork and download this repo.
-* Run ```$ bundle``` from the terminal in the project's root directory to install necessary gems.
 * Run ```$ open Thermostat.html``` from the terminal.
 
 Usage:
