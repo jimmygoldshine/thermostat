@@ -76,8 +76,8 @@ button#temperature-up {
   text-align: center;
   text-decoration: none;
   position: relative;
-  left: 290px;
-  bottom: 130px
+  left: 100px;
+  bottom: 130px;
 }
 
 button#temperature-down {

@@ -10,11 +10,6 @@ $(document).ready(function() {
   $('#temperature-up').click(function() {
     thermostat.up();
     displayTemperature();
-    $.ajax({
-      type: "POST",
-      url: "http://localhost:4567/",
-      data: { temperature: 20 }
-      });
   })
 
   $('#temperature-down').click(function() {
@@ -43,7 +38,5 @@ $(document).ready(function() {
       $('#weather').text("Outside temperature in " + city + ": " + Math.round(data.main.temp) + "°C");
     })
   });
-
-
 
 });
