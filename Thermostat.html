@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel='stylesheet' type='text/css' href='style.css' />
+  <meta charset="utf-8">
+
+  <title>Thermostat</title>
+
+</head>
+
+
+<body>
+
+  <script src="jquery-3.1.1.js"></script>
+
+  <section>
+    <h2 id="weather">Weather</h2>
+    <form id='choose_city'>
+      <input id='city' type='text' placeholder="City"><br>
+      <input id='submit_button' type='submit' value='Change city'>
+    </form>
+    <p>
+      <div id="display">
+        <h1 id="temperature">20°C</h1>
+        Power saving mode is <span id="power-saving-status">on</span>
+      </div><br>
+      <button id="temperature-up">+</button>
+      <button id="temperature-down">-</button>
+      <button id="temperature-reset">RESET</button><br>
+      <br>
+      <button id='power-saving-toggle'>PSM Toggle</button>
+    </p>
+  </section>
+  <script src="interface.js"></script>
+  <script src="src/Thermostat.js"></script>
+</body>
+</html>
