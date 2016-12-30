@@ -31,8 +31,7 @@ $(document).ready(function() {
     $('#weather').text("Outside temperature in London: " + Math.round(data.main.temp) + "°C");
   })
 
-  $('#choose_city').submit(function() {
-    event.preventDefault();
+  $( "#city" ).blur(function() {
     var city = $('#city').val();
     $.get("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=f7940fe5cc40b53866520aa94b9c285b&units=metric", function(data) {
       $('#weather').text("Outside temperature in " + city + ": " + Math.round(data.main.temp) + "°C");

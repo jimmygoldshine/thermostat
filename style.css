@@ -19,9 +19,15 @@ body {
   background: #ecece4;
 }
 
+
+
 h1 {
   margin: 15px 0 15px 0;
   font-size: 50px;
+}
+
+h2 {
+  font-family: "Lucida Console", Monaco, monospace
 }
 
 div#display {
@@ -37,7 +43,7 @@ input#city {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
-  text-align: left;
+  text-align: center;
 }
 
 button {
@@ -76,8 +82,8 @@ button#temperature-up {
   text-align: center;
   text-decoration: none;
   position: relative;
-  left: 100px;
-  bottom: 130px;
+  left: 260px;
+  bottom: 140px;
 }
 
 button#temperature-down {
@@ -99,50 +105,50 @@ button#temperature-down {
   text-align: center;
   text-decoration: none;
   position: relative;
-  left: 227px;
-  bottom: 60px
-}
-
-button#temperature-up {
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 9;
-  -moz-border-radius: 9;
-  border-radius: 9px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 50px;
-  width: 60px;
-  height: 60px;
-  padding: 0px;
-  text-align: center;
-  text-decoration: none;
-  position: relative;
-  left: 290px;
-  bottom: 130px
+  left: 196px;
+  bottom: 64px
 }
 
 button#temperature-reset {
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 9;
-  -moz-border-radius: 9;
-  border-radius: 9px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 18px 10px 18px;
-  text-decoration: none;
-  margin: auto;
-  width: 50%;
+    -webkit-border-radius: 24;
+    -moz-border-radius: 24;
+    border-radius: 24px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 19px;
+    background: #cf4747;
+    padding: 10px 20px 10px 20px;
+    border: solid #8b8d8f 2px;
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+    bottom: -50px;
+  }
+
+button#temperature-reset:hover {
+    background: #fc3c3c;
+    text-decoration: none;
+}
+
+button#power-saving-toggle {
+    -webkit-border-radius: 24;
+    -moz-border-radius: 24;
+    border-radius: 24px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 19px;
+    background: #30752d;
+    padding: 10px 20px 10px 20px;
+    border: solid #8b8d8f 2px;
+    text-decoration: none;
+    position: relative;
+    left: -270px;
+    bottom: -7px;
+  }
+
+button#power-saving-toggle:hover {
+    background: #41d434;
+    text-decoration: none;
 }
 
 button:hover {
